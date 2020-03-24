@@ -1,12 +1,12 @@
 package inClass.treasure;
 
-abstract public class Treasure {
+abstract class Treasure {
     private boolean isChanged =false;
-    abstract public void addObserver(Eudemon eudemon);
-    abstract public void deleteObserver();
-    abstract public void notifyObserver();
-    abstract public int countObserver();
-    public boolean hasChanged(){return isChanged;}
-    public void setChanged(boolean bool){isChanged = bool;}
-    public void clearChanged(){isChanged = false;}
+    abstract void addObserver(Eudemon eudemon);
+    abstract void deleteObserver();
+    abstract void notifyObserver();
+    abstract int countObserver();
+    boolean hasChanged(){return isChanged;}
+    void setChanged(){isChanged = true;}
+    void clearChanged(){isChanged = false;}
 }

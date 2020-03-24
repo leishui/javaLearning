@@ -1,5 +1,5 @@
 package inClass.treasure;
 
-public interface Eudemon {
+interface Eudemon {
     void update();
 }
