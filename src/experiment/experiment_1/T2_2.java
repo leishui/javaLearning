@@ -1,15 +1,12 @@
-package experiment_1;
+package experiment.experiment_1;
 
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Scanner;
-import java.util.function.Consumer;
 
 public class T2_2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-//        int a = scanner.nextInt();
+//        int experiment.experiment_2 = scanner.nextInt();
 //        int b = scanner.nextInt();
 //        int c = scanner.nextInt();
 //        ArrayList<Integer> num = new ArrayList<>();

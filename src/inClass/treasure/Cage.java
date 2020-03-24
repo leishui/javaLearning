@@ -1,4 +1,4 @@
-package treasure;
+package inClass.treasure;
 
 class Cage {
     void touchTreasure(Treasure treasure){

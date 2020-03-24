@@ -1,4 +1,4 @@
-package experiment_1;
+package experiment.experiment_1;
 
 import java.util.ArrayList;
 import java.util.Comparator;

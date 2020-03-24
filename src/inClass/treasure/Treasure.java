@@ -1,4 +1,4 @@
-package treasure;
+package inClass.treasure;
 
 abstract public class Treasure {
     private boolean isChanged =false;

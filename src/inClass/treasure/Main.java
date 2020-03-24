@@ -1,4 +1,4 @@
-package treasure;
+package inClass.treasure;
 
 public class Main {
     public static void main(String[] args) {
