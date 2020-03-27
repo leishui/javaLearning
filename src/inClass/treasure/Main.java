@@ -4,17 +4,24 @@ public class Main {
     public static void main(String[] args) {
         Gold gold = new Gold();
         Diamond diamond = new Diamond();
-        Eudemon eudemon1 = () -> System.out.println("黄金守护者1启动");
-        Eudemon eudemon2 = () -> System.out.println("黄金守护者2启动");
-        Eudemon eudemon3 = () -> System.out.println("钻石守护者1启动");
+        //定义守护者
+        Eudemon goldEudemon1 = () -> {
+            if (Math.random()%2==0)
+            System.out.println("黄金守护者1启动");
+        };
+        Eudemon goldEudemon2 = () -> System.out.println("黄金守护者2启动");
+        Eudemon diamondEudemon1 = () -> System.out.println("钻石守护者1启动");
         Cage cage = new Cage();
         //初始状态
         currentStateOfGold(gold);
         currentStateOfDiamond(diamond);
         //添加守护神
-        gold.addObserver(eudemon1);
-        gold.addObserver(eudemon2);
-        diamond.addObserver(eudemon3);
+        gold.addObserver(goldEudemon1);
+        gold.addObserver(goldEudemon2);
+        diamond.addObserver(diamondEudemon1);
+        //添加后状态
+        currentStateOfGold(gold);
+        currentStateOfDiamond(diamond);
         //碰触黄金钻石
         cage.touchTreasure(gold);
         cage.touchTreasure(diamond);
