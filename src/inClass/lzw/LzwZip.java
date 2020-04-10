@@ -31,7 +31,7 @@ public class LzwZip {
         //开始编码
         for (int i = 0; i < str.length(); i++) {
             if(code ==65534){//超出65534（2^16-2）重新进行编码
-                System.out.println("重置");
+                System.out.println("zip编码重置");
                 dos.writeChar(codeMap.get(prefix));
                 dos.writeChar(65535);//写出一个-1作为重置的表示与码表的打印
                 codeMap.clear();//清空HashMap

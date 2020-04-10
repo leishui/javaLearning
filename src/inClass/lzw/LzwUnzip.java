@@ -40,7 +40,7 @@ public class LzwUnzip {
         // 遍历integers
         for (int n : integers) {
             if (n == 65535) {
-                System.out.println("unzip重置");
+                System.out.println("unzip编码重置");
                 codeMapS.clear();
                 codeMapI.clear();
                 for (int j = 0; j < 256; j++) {
