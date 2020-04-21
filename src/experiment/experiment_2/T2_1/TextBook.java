@@ -1,9 +1,9 @@
-package experiment.experiment_2.T2_4;
+package experiment.experiment_2.T2_1;
 
-public class Course {
+public class TextBook {
     private String name;
 
-    public Course(String name) {
+    public TextBook(String name) {
         this.name = name;
     }
 

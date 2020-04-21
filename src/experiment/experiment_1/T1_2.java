@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class T2_5 {
+public class T1_2 {
     public static void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);

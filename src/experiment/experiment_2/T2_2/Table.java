@@ -1,4 +1,4 @@
-package experiment.experiment_2.T3;
+package experiment.experiment_2.T2_2;
 
 public class Table {
     private String tableName;

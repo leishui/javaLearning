@@ -1,6 +1,6 @@
 package experiment.experiment_1;
 
-public class T3 {
+public class T1_3 {
     public static void main(String[] args) {
         String[][] table = new String[6][7];
         for (int i = 1; i < 7; i++) {
