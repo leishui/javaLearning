@@ -13,7 +13,6 @@ public class T3_3 {
     private static void factFiles(File file) {
         BufferedReader br;
         String s;
-
         if(file.isDirectory()) {
             File[] files = file.listFiles();
             if (files != null) {
