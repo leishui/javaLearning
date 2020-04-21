@@ -9,7 +9,7 @@ public class T3_3 {
         File file = new File(path);
         factFiles(file);
     }
-    
+
     private static void factFiles(File file) {
         BufferedReader br;
         String s;
